@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio3
 {
-    public class Alumno
+    public class Alumno:IABM,IBusqueda
     {
         Materia mat;
         public String nombre { get; set; }
@@ -22,5 +22,24 @@ namespace Ejercicio3
 
         }
 
+        public string Alta()
+        {
+            return "Dando alta Alumno...";
+        }
+
+        public string Baja()
+        {
+            return "Dando de baja alumno...";
+        }
+
+        public string Modificar()
+        {
+            return "Modificando Alumno...";
+        }
+
+        public string BuscarXDni()
+        {
+            return "Buscando alumno X dni...";
+        }
     }
 }
