@@ -10,6 +10,13 @@ namespace Ejercicio3
     {
         static void Main(string[] args)
         {
+            Carrera carrera = new Carrera();
+            Materia materia = new Materia();
+            Alumno alumno = new Alumno(materia);
+            Profesor profesor = new Profesor();
+           
+
+
         }
     }
 }

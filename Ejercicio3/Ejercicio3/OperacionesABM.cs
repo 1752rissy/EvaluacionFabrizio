@@ -6,7 +6,29 @@ using System.Threading.Tasks;
 
 namespace Ejercicio3
 {
-    interface OperacionesABM
+    public class OperacionesABM
     {
+        private readonly IABM _operacionesABM;
+
+        public OperacionesABM (IABM operacionesABM)
+        {
+            _operacionesABM = operacionesABM;
+        }
+
+        public string Alta()
+        {
+            return _operacionesABM.Alta();
+        }
+
+        public string Baja()
+        {
+            return _operacionesABM.Baja();
+        }
+
+        public string Modificar()
+        {
+            return _operacionesABM.Modificar();
+        }
+
     }
 }

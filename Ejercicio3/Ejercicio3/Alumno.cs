@@ -19,7 +19,7 @@ namespace Ejercicio3
         public Alumno(Materia materia)
         {
             materia = mat;
-
+            
         }
 
         public string Alta()

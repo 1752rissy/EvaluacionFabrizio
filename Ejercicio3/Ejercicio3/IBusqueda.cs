@@ -10,6 +10,6 @@ namespace Ejercicio3
     {
         String BuscarXDni();
 
-        
+       
     }
 }

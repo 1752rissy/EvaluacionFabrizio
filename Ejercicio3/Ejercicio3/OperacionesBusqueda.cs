@@ -8,5 +8,16 @@ namespace Ejercicio3
 {
     public class OperacionesBusqueda
     {
+        private readonly IBusqueda _operacionesBusqueda;
+
+        public OperacionesBusqueda(IBusqueda operacionesBusqueda)
+        {
+            _operacionesBusqueda = operacionesBusqueda;
+        }
+
+        public String BuscarXDni()
+        {
+            return _operacionesBusqueda.BuscarXDni();
+        }
     }
 }
