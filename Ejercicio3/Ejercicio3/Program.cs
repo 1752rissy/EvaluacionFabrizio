@@ -10,6 +10,8 @@ namespace Ejercicio3
     {
         static void Main(string[] args)
         {
+            //Y LAS OPERACIONES PARA BUSCAR ALUMNOS POR MATERIA Y POR CARRERA ????????????????
+
             Carrera carrera = new Carrera();
             Materia materia = new Materia();
             Alumno alumno = new Alumno(materia);

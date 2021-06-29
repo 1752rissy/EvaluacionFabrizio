@@ -13,7 +13,7 @@ namespace Ejercicio3
 
         public String dni { get; set; }
 
-        Materia materia = new Materia();
+        Materia materia = new Materia(); //esto ESTA INTENTANDO UNA AGREGACION NO UNA COMPOSICION. UNA COMPOSICION estaria inicializando este objeto en el CONSTRUCTOR. 
 
         public string Alta()
         {
